@@ -1,0 +1,56 @@
+.logotipo{
+    display: inline-block;
+    width: 10%;
+}
+
+.navbar{
+    height: 5rem;
+   
+}
+
+.carousel-inner{
+    height: 30rem;
+  
+}
+.imgBanner{
+    height: 40rem;
+    width: 100%;
+}
+
+.imgHeladeraSamsung{
+  
+    height: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+   
+}
+
+.textImgHeladeraSamsung{
+    display: inline-block;
+    position: relative;
+    right: 20rem;
+    top: 16rem;
+}
+
+
+
+.imgTeleSamsung{
+    height: 20rem;
+}
+
+.textImgTeleSamsung{
+    display: inline-block;
+    position: relative;
+    right: 20rem;
+    top: 16rem;
+}
+
+button{
+    font-size: 2rem;
+    position: relative;
+    right: 29rem;
+    top: 19rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
