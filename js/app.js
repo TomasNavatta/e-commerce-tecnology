@@ -1,23 +1,28 @@
-let resultado = 0
-let rta = ""
-let ticket = ""
 
 function heladera(){
+    let resultado = 0
+   let rta = ""
+   let ticket = ""
+   let precio = ""
+   let precio_heladera = 1000000
+   
     function iva(precio){
-        return precio * 0.21
+        return precio_heladera * 0.21
     }
     do{
         let producto_heladera = "Heladera Samsung" 
-        let precio_heladera = "1000000"
+        let precio_heladera = 1000000
         resultado = resultado + precio_heladera + iva(precio)
         let ticket = "precio final de su pedido: \n "+producto_heladera+"\t$" + (precio_heladera + iva(precio)) 
+        alert(ticket + "\n\ total: $"+resultado)
         rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
     }while(rta != "salir")
     
     if(resultado >= 1000000){
-        resultado = resultado * 0.9
+        resultadoCondescuento = resultado * 0.9
+        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoCondescuento)
     }
-    alert(ticket + "\n\total: $"+resultado)
+    
 
 }
 
@@ -26,38 +31,37 @@ function button(){
 }
 
 
-
-
-const Min_num = 50
-const Max_num = 100
-const Numero_random = Math.ceil(Math.random()*(Max_num - Min_num) + Min_num);
-
-
-    function jugar(){
-    let Numero_jugador = 0;
-    let Intentos = 5
-    for(let i = 1; i <= Intentos; i++){
-
-    Numero_jugador = parseInt(prompt("Encontra el numero entre el 50 y 100:"));
-
-    if(Numero_jugador === Numero_random) {
-        alert("Acertaste el numero era " + Numero_jugador);
-        return;
-    }
-    if(Numero_jugador < Numero_random) {
-        alert("El numero es mayor a " + Numero_jugador)
-    }
-    else {
-        alert("el numero es menor a " + Numero_jugador)
-    }
-}
-if(Intentos=5){
-    alert("Game over")
-}
-    }
-    
+function television(){
+    let resultado = 0
+   let rta = ""
+   let ticket = ""
+   let precio = ""
+   let precio_television = 500000
    
-    
-    function comenzar(){
-        jugar();
+    function iva(precio){
+        return precio_television * 0.21
     }
+    do{
+        let producto_television = "Television Samsung" 
+        let precio_television = 500000
+        resultado = resultado + precio_television + iva(precio)
+        let ticket = "precio final de su pedido: \n "+producto_television+"\t$" + (precio_television + iva(precio)) 
+        alert(ticket + "\n\ total: $"+resultado)
+        rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
+    }while(rta != "salir")
+    
+    if(resultado >= 500000){
+        resultadoCondescuento = resultado * 0.75
+        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoCondescuento)
+    }
+    
+
+}
+
+function button_television(){
+    television();
+}
+
+
+
+
