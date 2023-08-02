@@ -23,24 +23,32 @@
 }
 
 .imgBanner3{
-    height: 37rem;
+    height: 38rem;
     width: 100%;
 }
 
-.imgHeladeraSamsung{
-  
-    height: 20rem;
+.section_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
+}
+
+.imgHeladeraSamsung{
+
+    height: 20rem;
+ 
    
 }
 
-.textImgHeladeraSamsung{
-    display: inline-block;
-    position: relative;
-    right: 20rem;
-    top: 16rem;
-}
+
 
 
 
@@ -48,19 +56,16 @@
     height: 20rem;
 }
 
-.textImgTeleSamsung{
-    display: inline-block;
-    position: relative;
-    right: 20rem;
-    top: 16rem;
+.imgPlay5{
+    height: 20rem;
+    
 }
 
+
 button{
-    font-size: 2rem;
-    position: relative;
-    right: 29rem;
-    top: 19rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+width: 50%;  
+background-color: black;
+color: white;
+    
     
 }
