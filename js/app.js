@@ -4,16 +4,16 @@ function heladera(){
    let rta = ""
    let ticket = ""
    let precio = ""
-   let precio_heladera = 1000000
+   let precioHeladera = 1000000
    
     function iva(precio){
-        return precio_heladera * 0.21
+        return precioHeladera * 0.21
     }
     do{
-        let producto_heladera = "Heladera Samsung" 
-        let precio_heladera = 1000000
-        resultado = resultado + precio_heladera + iva(precio)
-        let ticket = "precio final de su pedido: \n "+producto_heladera+"\t$" + (precio_heladera + iva(precio)) 
+        let productoHeladera = "Heladera Samsung" 
+        let precioHeladera = 1000000
+        resultado = resultado + precioHeladera + iva(precio)
+        let ticket = "precio final de su pedido: \n "+productoHeladera+"\t$" + (precioHeladera + iva(precio)) 
         alert(ticket + "\n\ total: $"+resultado)
         rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
     }while(rta != "salir")
@@ -36,44 +36,44 @@ function television(){
    let rta = ""
    let ticket = ""
    let precio = ""
-   let precio_television = 500000
+   let precioTelevision = 500000
    
     function iva(precio){
-        return precio_television * 0.21
+        return precioTelevision * 0.21
     }
     do{
-        let producto_television = "Television Samsung" 
-        let precio_television = 500000
-        resultado = resultado + precio_television + iva(precio)
-        let ticket = "precio final de su pedido: \n "+producto_television+"\t$" + (precio_television + iva(precio)) 
+        let productoTelevision = "Television Samsung" 
+        let precioTelevision = 500000
+        resultado = resultado + precioTelevision + iva(precio)
+        let ticket = "precio final de su pedido: \n "+productoTelevision+"\t$" + (precioTelevision + iva(precio)) 
         alert(ticket + "\n\ total: $"+resultado)
         rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
     }while(rta != "salir")
     
     if(resultado >= 500000){
-        resultadoCondescuento = resultado * 0.75
-        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoCondescuento)
+        resultadoConDescuento = resultado * 0.75
+        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoConDescuento)
     }
     
 
 }
 
-function button_television(){
+function buttonTelevision(){
     television();
 }
 
 function play(){
     let resultado = 0
-   let precio_play = 650000
+   let precioPlay = 650000
    
     function iva(){
-        return precio_play * 0.21
+        return precioPlay * 0.21
     }
     do{
 
-        resultado =  precio_play + iva()
+        resultado =  precioPlay + iva()
        
-        alert(`precio total de su pedido: \nplay 5: $${precio_play} \nCon iva: ${resultado}`)
+        alert(`precio total de su pedido: \nplay 5: $${precioPlay} \nCon iva: ${resultado}`)
         class Play {
             constructor(nombre, precio){
                 this.nombre = nombre 
@@ -105,16 +105,16 @@ function button2(){
 
 function lg(){
     let resultado = 0
-   let precio_lg = 850000
+   let precioLg = 850000
    
     function iva(){
-        return precio_lg * 0.21
+        return precioLg * 0.21
     }
     do{
 
-        resultado =  precio_lg + iva()
+        resultado =  precioLg + iva()
        
-        alert(`precio total de su pedido: \nTelevison LG Oled Evo: $${precio_lg} \nCon iva: ${resultado}`)
+        alert(`precio total de su pedido: \nTelevison LG Oled Evo: $${precioLg} \nCon iva: ${resultado}`)
         class Lg {
             constructor(nombre, precio){
                 this.nombre = nombre 
