@@ -1,6 +1,9 @@
+.logotipo_container{
+    text-align: center;
+}
 .logotipo{
     display: inline-block;
-    width: 10%;
+    width: 20%;
 }
 
 .navbar{
@@ -28,9 +31,9 @@
 }
 
 .section_contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .producto{
