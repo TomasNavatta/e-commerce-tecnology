@@ -72,3 +72,100 @@ color: white;
     
     
 }
+
+.botton_carrito{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ 
+}
+
+.separador_carrito{
+    width: 90%;
+  padding-left: 2rem;
+}
+
+.position_bottom{
+    margin  : 1.8rem;
+    background: none;
+    border: none;
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.color_carrito{
+    
+    color: grey;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+#img-carrito {
+    cursor: pointer;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+th{
+    padding: 1.5rem;
+}
+td{
+    padding: 1.5rem;
+}
+
+
+#vaciar-carrito{
+    text-align: center;
+    cursor: pointer;
+}
+
+.position_carro{
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+}
