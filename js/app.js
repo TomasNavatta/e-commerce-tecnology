@@ -1,135 +1,163 @@
-//carrito vacio para agrear las cosas luego
-let articulosCarrito = []
 
-//selccionar el contenedor padre dond ese encuentran los productos
-const listaProductos = document.querySelector(".section_contenedor")
-//console.log(listaProductos)
-
-// selecionar el carrito
-const carrito = document.querySelector("#carrito")
-//console.log(carrito)
-
-//seleccion del boton vaciar carrito
-const vaciarCarritoBtn = document.querySelector("#vaciar-carrito")
-//console.log(vaciarCarritoBtn)
-
-// seleccionar l lista carrito tbody para agregar los nuevos productos al carrito
-const contenedorCarrito = document.querySelector("#lista-carrito tbody")
-//console.log(contenedorCarrito)
-
-//evnto para guardar el carrito cuando se recare la web
-document.addEventListener('DOMContentLoaded', ()=>{
-    if(JSON.parse(localStorage.getItem('carrito')) == null){
-        articulosCarrito = []
-        console.log(articulosCarrito)
+function heladera(){
+    let resultado = 0
+   let rta = ""
+   let ticket = ""
+   let precio = ""
+   let precioHeladera = 1000000
+   
+    function iva(precio){
+        return precioHeladera * 0.21
     }
-    else{
-        articulosCarrito = JSON.parse(localStorage.getItem('carrito'))
-        console.log(articulosCarrito)
-
-    }
-    carritoHTML()
-})
-
-//eventos 
-listaProductos.addEventListener('click', agregarProducto) 
-vaciarCarritoBtn.addEventListener('click', vaciarCarrito)
-carrito.addEventListener('click', eliminarProducto)
-
-// eliminar producto
-function eliminarProducto(e){
-    e.preventDefault();
-    //console.log(e.target.parentElement)
-    if(e.target.classList.contains('borrarProducto')){
-        const producto = e.target.parentElement.parentElement
-        const productoID = producto.querySelector('a').getAttribute('data-id');
-        articulosCarrito = articulosCarrito.filter(producto => producto.id != productoID);
-
-        carritoHTML()
-    }
-}
-
-// agregar producto
-function agregarProducto(e){
-    e.preventDefault()
-    if(e.target.classList.contains('agregarCarrito')){
-        const producto = e.target.parentElement
-        //console.log(producto)
-        leerDatosProducto(producto)
-
-    }
-}
-
-//seleccionar los datos del producto que qeuremos que se muestre en el carrito
-function leerDatosProducto(i){
-    const infoProducto = {
-        img: i.querySelector('img').src,
-        title: i.querySelector('p').textContent,
-        price: i.querySelector('.precio').textContent,
-        id: i.querySelector('button').getAttribute('data-id'),
-        cantidad: 1
-    }
-    //console.log(infoProducto)
-    if(articulosCarrito.some(item => item.id === infoProducto.id)){
-       const productos = articulosCarrito.map(producto =>{
-        if(producto.id == infoProducto.id){
-            let cantidad = parseInt(producto.cantidad);
-            cantidad ++;
-            producto.cantidad = cantidad;
-            return producto;
-        }
-        else{
-            return producto;
-        }
-
-    })
-    articulosCarrito = productos.slice();
-       }
-    else{
-        articulosCarrito.push(infoProducto)
-
+    do{
+        let productoHeladera = "Heladera Samsung" 
+        let precioHeladera = 1000000
+        resultado = resultado + precioHeladera + iva(precio)
+        let ticket = "precio final de su pedido: \n "+productoHeladera+"\t$" + (precioHeladera + iva(precio)) 
+        alert(ticket + "\n\ total: $"+resultado)
+        rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
+    }while(rta != "salir")
+    
+    if(resultado >= 1000000){
+        resultadoCondescuento = resultado * 0.9
+        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoCondescuento)
     }
     
-    //console.log(articulosCarrito)
-    carritoHTML()
 
 }
 
-// mostrar los datos del producto
-function carritoHTML(){
-    limpiarCarrito();
-    articulosCarrito.forEach(producto =>{
-        const fila = document.createElement('tr')
-        fila.innerHTML = `
-          <td> <img src= "${producto.img}"  width="125"/> </td>
-          <td>   ${producto.title}   </td>
-          <td>   ${producto.price}   </td>
-          <td>   ${producto.cantidad}   </td>
-          <td> 
-          <a href="#" class="borrarProducto" data-id="${producto.id}"> ❌ </a>
-          </td>
-        `;
-        contenedorCarrito.appendChild(fila)
-    })
-    sincronizarStorage();
-
+function button(){
+    heladera();
 }
-//limpiar el carrito asi no se repite el  producto agregado anteriormente cuando queremos agregar otro producto
-function limpiarCarrito(){
-    while(contenedorCarrito.firstChild){
-        contenedorCarrito.removeChild(contenedorCarrito.firstChild)
+
+
+function television(){
+    let resultado = 0
+   let rta = ""
+   let ticket = ""
+   let precio = ""
+   let precioTelevision = 500000
+   
+    function iva(precio){
+        return precioTelevision * 0.21
+    }
+    do{
+        let productoTelevision = "Television Samsung" 
+        let precioTelevision = 500000
+        resultado = resultado + precioTelevision + iva(precio)
+        let ticket = "precio final de su pedido: \n "+productoTelevision+"\t$" + (precioTelevision + iva(precio)) 
+        alert(ticket + "\n\ total: $"+resultado)
+        rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
+    }while(rta != "salir")
+    
+    if(resultado >= 500000){
+        resultadoConDescuento = resultado * 0.75
+        alert(ticket + "\n\ total: $"+resultado+ "\nTotal con descuento: $"+resultadoConDescuento)
     }
     
-}
-function sincronizarStorage(){
-    localStorage.setItem('carrito', JSON.stringify(articulosCarrito))
 
 }
-//boton vaciar carrito
-function vaciarCarrito(){
-    while(contenedorCarrito.firstChild){
-        contenedorCarrito.removeChild(contenedorCarrito.firstChild);
-    }
-    articulosCarrito = [];
-    sincronizarStorage();
+
+function buttonTelevision(){
+    television();
 }
+
+function play(){
+    let resultado = 0
+   let precioPlay = 650000
+   
+    function iva(){
+        return precioPlay * 0.21
+    }
+    do{
+
+        resultado =  precioPlay + iva()
+       
+        alert(`precio total de su pedido: \nplay 5: $${precioPlay} \nCon iva: ${resultado}`)
+        class Play {
+            constructor(nombre, precio){
+                this.nombre = nombre 
+                this.precio = precio
+            }
+            descuento(){
+                this.precio = (this.precio + iva()) * 0.7;
+            }
+            
+        }
+        const play = []
+        play.push(new Play("play 5", 650000))
+
+        for (producto of play){
+            producto.descuento();
+            alert(`Total con 30% OFF: $${producto.precio} `)
+        }
+        rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
+    }while(rta != "salir")
+
+ 
+    
+
+}
+function button2(){
+    play();
+}
+
+
+function lg(){
+    let resultado = 0
+   let precioLg = 850000
+   
+    function iva(){
+        return precioLg * 0.21
+    }
+    do{
+
+        resultado =  precioLg + iva()
+       
+        alert(`precio total de su pedido: \nTelevison LG Oled Evo: $${precioLg} \nCon iva: ${resultado}`)
+        class Lg {
+            constructor(nombre, precio){
+                this.nombre = nombre 
+                this.precio = precio
+            }
+            descuento(){
+                this.precio = (this.precio + iva()) * 0.95;
+            }
+            
+        }
+        const lg = []
+        lg.push(new Lg("Tv Lg Oled Evo", 850000))
+
+        for (producto of lg){
+            producto.descuento();
+            alert(`Total con 5% OFF: $${producto.precio} `)
+        }
+        rta = prompt("Escriba 'salir' para finalizar el pedido").toLowerCase()
+    }while(rta != "salir")
+
+ 
+    
+
+}
+function button3(){
+    lg();
+}
+
+
+
+ const productos = [
+     {nombre: 'Play 5', precio: 650000},
+     {nombre: 'Heladera Samsung', precio: 1000000},
+     {nombre: 'Television Samsung', precio: 500000},
+     {nombre: 'Television Lg Oled Evo', precio: 850000},
+ ]
+
+ const resultado = productos.filter((el) => el.nombre.includes ("Television"))
+ const resultado2 = productos.filter((el) => el.precio >=850000) 
+
+ console.log(resultado)
+ console.log(resultado2)
+ 
+
+
+
