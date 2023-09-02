@@ -1,21 +1,30 @@
+
 //carrito vacio para agrear las cosas luego
 let articulosCarrito = []
 
 //selccionar el contenedor padre dond ese encuentran los productos
-const listaProductos = document.querySelector(".section_contenedor")
+const listaProductos = document.querySelector(".div_container")
 //console.log(listaProductos)
 
 // selecionar el carrito
 const carrito = document.querySelector("#carrito")
 //console.log(carrito)
 
+//contador productos
+const countProducts = document.querySelector('#contador-productos')
+
 //seleccion del boton vaciar carrito
 const vaciarCarritoBtn = document.querySelector("#vaciar-carrito")
 //console.log(vaciarCarritoBtn)
 
 // seleccionar l lista carrito tbody para agregar los nuevos productos al carrito
-const contenedorCarrito = document.querySelector("#lista-carrito tbody")
+const contenedorCarrito = document.querySelector("tbody")
 //console.log(contenedorCarrito)
+
+//total pagar carrito
+
+const totalPagar = document.querySelector(".total_pagar")
+
 
 //evnto para guardar el carrito cuando se recare la web
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -31,6 +40,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     carritoHTML()
 })
 
+
+
 //eventos 
 listaProductos.addEventListener('click', agregarProducto) 
 vaciarCarritoBtn.addEventListener('click', vaciarCarrito)
@@ -42,7 +53,7 @@ function eliminarProducto(e){
     //console.log(e.target.parentElement)
     if(e.target.classList.contains('borrarProducto')){
         const producto = e.target.parentElement.parentElement
-        const productoID = producto.querySelector('a').getAttribute('data-id');
+        const productoID = producto.querySelector('.borrarProducto').getAttribute('data-id');
         articulosCarrito = articulosCarrito.filter(producto => producto.id != productoID);
 
         carritoHTML()
@@ -53,12 +64,65 @@ function eliminarProducto(e){
 function agregarProducto(e){
     e.preventDefault()
     if(e.target.classList.contains('agregarCarrito')){
-        const producto = e.target.parentElement
+        const producto = e.target.parentElement.parentElement
         //console.log(producto)
         leerDatosProducto(producto)
 
     }
 }
+
+// Selección del campo de búsqueda y botón de búsqueda
+const campoBusqueda = document.querySelector('#campo-busqueda');
+const btnBusqueda = document.querySelector('#btn-campo-busqueda');
+const formularioBusqueda = document.querySelector('#formulario-busqueda');
+
+// Selección de los elementos que se filtrarán
+const productos = document.querySelectorAll('.card');
+
+// Agregar un evento al botón de búsqueda para filtrar productos
+btnBusqueda.addEventListener('click', filtrarProductos);
+
+// Agregar un evento al formulario para evitar el envío por defecto
+formularioBusqueda.addEventListener('submit', function (e) {
+    e.preventDefault();
+});
+
+
+// Agregar un evento al botón de búsqueda para filtrar productos
+btnBusqueda.addEventListener('click', filtrarProductos);
+
+// Agregar un evento al formulario para evitar el envío por defecto
+formularioBusqueda.addEventListener('submit', function (e) {
+    e.preventDefault();
+});
+
+
+
+
+
+
+function filtrarProductos() {
+    const textoBusqueda = campoBusqueda.value.toLowerCase();
+
+    productos.forEach(producto => {
+        const nombreProducto = producto.querySelector('.contenido p').textContent.toLowerCase();
+        
+        // Comprobar si el nombre del producto incluye el texto de búsqueda
+        if (nombreProducto.includes(textoBusqueda)) {
+            producto.style.display = 'block'; // Mostrar el producto si coincide
+        } else {
+            producto.style.display = 'none';  // Ocultar el producto si no coincide
+        }
+         // Si el campo de búsqueda está vacío, mostrar todos los productos
+    if (campoBusqueda.value === '') {
+        mostrarTodosLosProductos();
+    }
+    });
+
+
+}
+
+
 
 //seleccionar los datos del producto que qeuremos que se muestre en el carrito
 function leerDatosProducto(i){
@@ -96,24 +160,53 @@ function leerDatosProducto(i){
 }
 
 // mostrar los datos del producto
+
+
 function carritoHTML(){
+    let precioTotal = 0 
+    let totalOfProducts = 0;
     limpiarCarrito();
     articulosCarrito.forEach(producto =>{
         const fila = document.createElement('tr')
         fila.innerHTML = `
           <td> <img src= "${producto.img}"  width="125"/> </td>
-          <td>   ${producto.title}   </td>
-          <td>   ${producto.price}   </td>
-          <td>   ${producto.cantidad}   </td>
-          <td> 
-          <a href="#" class="borrarProducto" data-id="${producto.id}"> ❌ </a>
-          </td>
+             <td><p>${producto.title} <span class="borrarProducto" data-id="${producto.id}"> 🗑️ </span></p>   
+             <p> <span class="cantidad_carrito"><span class="signo_menos">➖</span>${producto.cantidad}<span class="signo_mas">➕</span></span><span class="precio_carrito">${producto.price}</span></p>    
+             </td>
         `;
         contenedorCarrito.appendChild(fila)
+        const decrese = fila.querySelector('.signo_menos')
+        decrese.addEventListener('click', ()=>{
+            if(producto.cantidad !== 1){
+                producto.cantidad --;
+            carritoHTML();
+
+            }
+            
+        })
+        const increse = fila.querySelector('.signo_mas')
+        increse.addEventListener('click', ()=>{
+        
+                producto.cantidad ++;
+            carritoHTML();
+
+            
+        })
+
+
+        const precioProducto = parseFloat(producto.price.replace('$', '').replace(',', '').replace('.', '').replace('.', '').replace('.', '').replace('.', '')); 
+        const precioSubtotal = producto.cantidad * precioProducto;
+        precioTotal += precioSubtotal;
+        fila.querySelector('.precio_carrito').textContent = `$${precioSubtotal.toLocaleString('es-ES')}`;
+        totalOfProducts = totalOfProducts + producto.cantidad;
+        
     })
+    totalPagar.innerHTML = `Total: $${precioTotal.toLocaleString('es-ES')}`;
+    countProducts.innerText = totalOfProducts;
     sincronizarStorage();
 
 }
+
 //limpiar el carrito asi no se repite el  producto agregado anteriormente cuando queremos agregar otro producto
 function limpiarCarrito(){
     while(contenedorCarrito.firstChild){
@@ -131,6 +224,7 @@ function vaciarCarrito(){
         contenedorCarrito.removeChild(contenedorCarrito.firstChild);
     }
     articulosCarrito = [];
+    totalPagar.innerHTML = 'Total: $0';
+    countProducts.innerHTML = 0
     sincronizarStorage();
 }
-
