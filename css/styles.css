@@ -156,6 +156,34 @@ input[type="submit"]:hover{
     
 }
 
+.hr_carrito{
+    display: flex;
+    justify-content: center;
+
+
+}
+.hr_carritobtn{
+    display: flex;
+    justify-content: center;
+}
+
+.mostrarInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.icon_carrito_vacio{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
 td{
     padding: 0.4rem;
     padding-bottom: 3rem;
@@ -394,22 +422,53 @@ button{
 
 
 button{
-    width: 60%;  
-    background-color: black;
-    color: white;
-        
-        
+    width: 80%;  
+
     }
 
 .agregarCarrito{
     margin-bottom: 2rem;
+    background-color: black;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 144px;
         
     }
+.agregarCarrito:active{
+    transform: scale(0.95);
+}    
+
+
+.hidden{
+    display: none;
+}
+
+    
     
 /* banner categoria productos */
 .banner_productos{
     width: 100%;
     max-height: 50rem;
+}
+
+
+/* hornos */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+   position: absolute;
+   right: 0;
+   left: 0;
+ 
+}
+.page-item{
+    padding: 0 0.2rem;
+   
+
 }
 /* FOOTER */
 
@@ -426,6 +485,10 @@ footer div{
 }
 
 footer div h2{
-    font-size: 10rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin-top: 3rem;
+    background-color: grey;
+
+
 }

@@ -1,0 +1,114 @@
+[
+    {
+        "categoria": "gaming",
+        "id": 33,
+        "nombre": "Mouse HyperX Pulsefire Raid 11 Botones programables",
+        "price": "$35.900",
+        "img": "../../img/Mouse HyperX Pulsefire Raid 11 Botones programables.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 34,
+        "nombre": "Teclado Logitech G213 Prodigy RGB Gaming",
+        "price": "$40.000",
+        "img": "../../img/Teclado Logitech G213 Prodigy RGB Gaming.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 35,
+        "nombre": "Monitor Gamer ASUS 27' GAMING VG27VQ 165Hz FHD",
+        "price": "$276.000",
+        "img": "../../img/Monitor Gamer ASUS 27' GAMING VG27VQ 165Hz FHD.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 36,
+        "nombre": "Monitor Gamer LG 32''  IPS 4K 144Hz 1ms GSync FreeSync",
+        "price": "$1.054.000",
+        "img": "../../img/Monitor Gamer LG 32''  IPS 4K 144Hz 1ms GSync FreeSync.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 37,
+        "nombre": "Mouse Pad Glorious XL Black G-HXL 410 x 460mm",
+        "price": "$8.250",
+        "img": "../../img/Mouse Pad Glorious XL Black G-HXL 410 x 460mm.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 38,
+        "nombre": "Mouse HyperX Pulsefire Surge RGB 16.000DPI",
+        "price": "$41.600",
+        "img": "../../img/Mouse HyperX Pulsefire Surge RGB 16.000DPI.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 39,
+        "nombre": "Teclado Mecanico HyperX Alloy Elite 2 RGB Switch Red",
+        "price": "$111.800",
+        "img": "../../img/Mouse HyperX Pulsefire Surge RGB 16.000DPI.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 40,
+        "nombre": "Teclado Mecanico Redragon Fizz Pro K616-RGB 60% White-Pink",
+        "price": "$35.750",
+        "img": "../../img/teclado redragon.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 41,
+        "nombre": "Mouse Logitech G PRO X Wireless Superlight White 25K",
+        "price": "$96.500",
+        "img": "../../img/Mouse Logitech G PRO X Wireless Superlight White 25K.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 42,
+        "nombre": "Mouse Pad Logitech G440 Gaming 340mm x 280mm",
+        "price": "$10.860",
+        "img": "../../img/Mouse Pad Logitech G440 Gaming 340mm x 280mm.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 43,
+        "nombre": "Mouse Logitech G502X Plus Black Lightforce Hero 25K Wireless RGB",
+        "price": "$118.000",
+        "img": "../../img/Mouse Logitech G502X Plus Black Lightforce Hero 25K Wireless RGB.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 44,
+        "nombre": "Teclado Mecanico Redragon K550 Yama Black RGB",
+        "price": "$50.130",
+        "img": "../../img/Teclado Mecanico Redragon K550 Yama Black RGB.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 45,
+        "nombre": "Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync",
+        "price": "$1.100.000",
+        "img": "../../img/Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 46,
+        "nombre": "Mouse Pad Redragon Kunlun Large P006 XL 880x420mm",
+        "price": "$16.200",
+        "img": "../../img/Mouse Pad Redragon Kunlun Large P006 XL 880x420mm.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 47,
+        "nombre": "Mouse Logitech G703 Lightspeed Wireless",
+        "price": "$73.000",
+        "img": "../../img/Mouse Logitech G703 Lightspeed Wireless.png"
+    },
+    {
+        "categoria": "gaming",
+        "id": 48,
+        "nombre": "Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS",
+        "price": "$625.000",
+        "img": "../../img/Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS.png"
+    }
+]

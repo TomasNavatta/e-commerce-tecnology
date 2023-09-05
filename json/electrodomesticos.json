@@ -1,0 +1,107 @@
+[
+    {
+        "categoria": "electrodomesticos",
+        "id": 49,
+        "nombre": "Licuadora de Pie Peabody 600W 1,5 Lts 5 Velocidades",
+        "price": "$18.999",
+        "img": "../../img/Licuadora de Pie Peabody 600W 1,5 Lts 5 Velocidades.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 50,
+        "nombre": "Pava Eléctrica Atma 1,7Lts Negra",
+        "price": "$17.999",
+        "img": "../../img/Pava Eléctrica Atma 1,7Lts  Negra.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 51,
+        "nombre": "Licuadora de Pie Liliana WHITELIC AL100",
+        "price": "$16.499",
+        "img": "../../img/Licuadora de Pie Liliana WHITELIC AL100.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 52,
+        "nombre": "Aspiradora con Bolsa ATMA 1500W",
+        "price": "$49.999",
+        "img": "../../img/Aspiradora con Bolsa ATMA  1500W.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 53,
+        "nombre": "Hornito Eléctrico Peabody 35Lts",
+        "price": "$42.499",
+        "img": "../../img/Hornito Eléctrico Peabody  35Lts.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 54,
+        "nombre": "iRobot Roomba i7+ Aspiradora Negra",
+        "price": "$941.999",
+        "img": "../../img/iRobot Roomba i7+ Aspiradora Negra.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 55,
+        "nombre": "Robot Cocina Companion Moulinex Vaporera Olla Presion Horno",
+        "price": "$781.039",
+        "img": "../../img/Robot Cocina Companion Moulinex Vaporera Olla Presion Horno.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 56,
+        "nombre": "Cafetera expresso Philips",
+        "price": "$559.999",
+        "img": "../../img/Cafetera expresso Philips.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 57,
+        "nombre": "Extractor de Jugos Peabody  By Hurom - Slow 100w Negro",
+        "price": "$412.499",
+        "img": "../../img/Extractor de Jugos Peabody  By Hurom - Slow 100w Negro.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 58,
+        "nombre": "Licuadora Profesional Turboblender Digital Con Cover 2200W 4HP 1,5 L Blanca",
+        "price": "$399.999",
+        "img": "../../img/Licuadora Profesional Turboblender Digital Con Cover 2200W 4HP 1,5 L  Blanca.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 59,
+        "nombre": "Cafetera Espresso Molinillo Inc Barista",
+        "price": "$499.999",
+        "img": "../../img/Cafetera Espresso Molinillo Inc Barista.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 60,
+        "nombre": "Batidora de Bowl Elevable KitchenAid 6,6L Empire Red",
+        "price": "$383.799",
+        "img": "../../img/Batidora de Bowl Elevable KitchenAid 6,6L Empire Red.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 61,
+        "nombre": "Juguera de prensado en frío Kuvings Gunmetal",
+        "price": "$375.000",
+        "img": "../../img/Juguera de prensado en frío Kuvings Gunmetal.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 62,
+        "nombre": "Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades",
+        "price": "$311.529",
+        "img": "../../img/Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades.png"
+    },
+    {
+        "categoria": "electrodomesticos",
+        "id": 63,
+        "nombre": "Cafetera Nespresso Gran Lattissima Black",
+        "price": "$309.390",
+        "img": "../../img/Cafetera Nespresso Gran Lattissima Black.png"
+    }
+]

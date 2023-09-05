@@ -1,0 +1,65 @@
+[
+    {
+        "categoria": "notebooks",
+        "id": 64,
+        "nombre": "Notebook 2 En 1 Qhd+ Dell Latitude 9420 I7 11va 32gb 1tb Ssd",
+        "price": "$5.499.999",
+        "img": "../../img/Notebook 2 En 1 Qhd+ Dell Latitude 9420 I7 11va 32gb 1tb Ssd.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 65,
+        "nombre": "Notebook Asus 15.6 Ryzen 7 6800h 16g 512gb Rtx3060 W11h",
+        "price": "$2.313.333",
+        "img": "../../img/Notebook Asus 15.6 Ryzen 7 6800h 16g 512gb Rtx3060 W11h.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 66,
+        "nombre": "Notebook Asus 18” Intel Core i9 24 Núcleos 32GB 1TB SSD ROG Strix Scar 18 Placa RTX 4090",
+        "price": "$2.999.999",
+        "img": "../../img/Notebook Asus 18” Intel Core i9 24 Núcleos 32GB 1TB SSD ROG Strix Scar 18 Placa RTX 4090.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 67,
+        "nombre": "MacBook Pro 14'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Space Grey",
+        "price": "$3.429.900",
+        "img": "../../img/MacBook Pro 14'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Space Grey.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 68,
+        "nombre": "Notebook ASUS Zenbook Pro Duo 15 OLED  Core i9 11900H 32GB 1TB RTX3080 Touch Win11Home",
+        "price": "$3.986.199",
+        "img": "../../img/Notebook ASUS Zenbook Pro Duo 15 OLED  Core i9 11900H 32GB 1TB RTX3080 Touch Win11Home.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 69,
+        "nombre": "MacBook Pro 16'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Silver",
+        "price": "$3.729.900",
+        "img": "../../img/MacBook Pro 16'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD – Silver.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 70,
+        "nombre": "Notebook Fhd Dell Latitude 9430 Core I5 12va 16gb Ddr5 256gb",
+        "price": "$3.899.999",
+        "img": "../../img/Notebook Fhd Dell Latitude 9430 Core I5 12va 16gb Ddr5 256gb.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 71,
+        "nombre": "Notebook Gamer Lenovo Legion 7i Intel Core i7 12800HX (16N) 32GB 1TB SSD RTX 3070Ti",
+        "price": "$2.178.999",
+        "img": "../../img/Notebook Gamer Lenovo Legion 7i Intel Core i7 12800HX (16N) 32GB 1TB SSD RTX 3070Ti.png"
+    },
+    {
+        "categoria": "notebooks",
+        "id": 72,
+        "nombre": "Notebook Gigabyte 16 Intel Core i7-12700H 16GB 1TB RTX3070Ti Win11Pro Gris",
+        "price": "$3.695.399",
+        "img": "../../img/Notebook Gigabyte 16 Intel Core i7-12700H 16GB 1TB RTX3070Ti Win11Pro Gris.png"
+    }
+]

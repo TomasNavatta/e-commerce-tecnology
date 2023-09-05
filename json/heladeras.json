@@ -1,0 +1,87 @@
+[
+    {
+        "categoria": "heladeras",
+        "id": 1,
+        "nombre": "Heladera LG Side by Side Smart Inverter Compressor Capacidad 591 Lts",
+        "price": "$1.640.000",
+        "img": "../../img/Heladera Side by Side Smart Inverter Compressor Capacidad 591 Lts.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 2,
+        "nombre": "Heladera Drean Freezer Inferior 545 litros - Acero Inoxidable",
+        "price": "$1.080.000",
+        "img": "../../img/Heladera Freezer Inferior 545 litros - Acero Inoxidable.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 3,
+        "nombre": "LG Heladera Door-in-Door® - Capacidad 626lt",
+        "price": "$1.725.000",
+        "img": "../../img/LG Heladera Door-in-Door® - Capacidad 626lt.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 4,
+        "nombre": "Heladera Flex™ de 4 puertas Family Hub™ Samsung",
+        "price": "$1.000.000",
+        "img": "../../img/heladera samsu.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 5,
+        "nombre": "Heladera con freezer Cíclica 314 L Black Steel Drean",
+        "price": "$328.000",
+        "img": "../../img/Heladera con freezer Cíclica 314 L Black Steel Drean.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 6,
+        "nombre": "Heladera LG InstaView Door-in-Door™ - Capacidad 601lt",
+        "price": "$2.160.000",
+        "img": "../../img/Heladera LG InstaView Door-in-Door™ - Capacidad 601lt.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 7,
+        "nombre": "Heladera LG French Door con Beverage Center 713L",
+        "price": "$4.130.000",
+        "img": "../../img/Heladera French Door con Beverage Center 713L.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 8,
+        "nombre": "Heladera con freezer Cíclica 364 L Blanca Drean",
+        "price": "$312.000",
+        "img": "../../img/Heladera con freezer Cíclica 364 L Blanca Drean.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 9,
+        "nombre": "Heladera Samsung Freezer Superior Twin Cooling Plus™, 321 L",
+        "price": "$374.000",
+        "img": "../../img/Heladera Freezer Superior Twin Cooling Plus™, 321 L.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 10,
+        "nombre": "Heladera LG Side by Side InstaView, Craft Ice, ThinQ",
+        "price": "$2.160.000",
+        "img": "../../img/Heladera LG Side by Side InstaView, Craft Ice, ThinQ.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 11,
+        "nombre": "Heladera Samsung Side by Side Family Hub de 685L",
+        "price": "$3.500.000",
+        "img": "../../img/Heladera Side by Side Family Hub de 685L.png"
+    },
+    {
+        "categoria": "heladeras",
+        "id": 12,
+        "nombre": "Heladera French Door SpaceMax 629L Samsung",
+        "price": "$1.725.000",
+        "img": "../../img/Heladera French Door SpaceMax 629L.png"
+    }
+    
+]

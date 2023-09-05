@@ -25,6 +25,33 @@ const contenedorCarrito = document.querySelector("tbody")
 
 const totalPagar = document.querySelector(".total_pagar")
 
+//hr
+
+const hr = document.querySelector(".hr_carrito")
+const hrbtn = document.querySelector(".hr_carritobtn")
+
+
+
+//mostra info del carrito vacio
+
+const mostrarInfo = document.querySelector(".mostrarInfo")
+
+
+// finalizar compra
+const finalizarCompra = document.querySelector(".finalizar_compra")
+
+finalizarCompra.addEventListener(`click`, ()=>{
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Compra realizada con exito',
+        showConfirmButton: false,
+        timer: 1500
+      })
+      vaciarCarrito()
+})
+
+
 
 //evnto para guardar el carrito cuando se recare la web
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -163,6 +190,21 @@ function leerDatosProducto(i){
 
 
 function carritoHTML(){
+    if(!articulosCarrito.length){
+        mostrarInfo.classList.remove(`hidden`)
+        totalPagar.classList.add(`hidden`)
+        hr.classList.add(`hidden`)
+        hrbtn.classList.add(`hidden`)
+        finalizarCompra.classList.add(`hidden`)
+        vaciarCarritoBtn.classList.add(`hidden`)
+    } else{
+        mostrarInfo.classList.add(`hidden`)
+        hr.classList.remove(`hidden`)
+        hrbtn.classList.remove(`hidden`)
+        totalPagar.classList.remove(`hidden`)
+        finalizarCompra.classList.remove(`hidden`)
+        vaciarCarritoBtn.classList.remove(`hidden`)
+    }
     let precioTotal = 0 
     let totalOfProducts = 0;
     limpiarCarrito();
@@ -227,4 +269,22 @@ function vaciarCarrito(){
     totalPagar.innerHTML = 'Total: $0';
     countProducts.innerHTML = 0
     sincronizarStorage();
+    if(!articulosCarrito.length){
+        mostrarInfo.classList.remove(`hidden`)
+        totalPagar.classList.add(`hidden`)
+        hr.classList.add(`hidden`)
+        hrbtn.classList.add(`hidden`)
+        finalizarCompra.classList.add(`hidden`)
+        vaciarCarritoBtn.classList.add(`hidden`)
+        
+    } else{
+        mostrarInfo.classList.add(`hidden`)
+        hr.classList.remove(`hidden`)
+        hrbtn.classList.remove(`hidden`)
+        totalPagar.classList.remove(`hidden`)
+        finalizarCompra.classList.remove(`hidden`)
+        vaciarCarritoBtn.classList.remove(`hidden`)
+    }
+    
+    
 }

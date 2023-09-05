@@ -1,0 +1,37 @@
+[
+    {
+        "categoria": "hornos",
+        "id": 28,
+        "nombre": "Horno electrico con Dual Fan 70L Samsung",
+        "price": "$720.000",
+        "img": "../../img/horno electrico con dual fan 70l samsung.png"
+    },
+    {
+        "categoria": "hornos",
+        "id": 29,
+        "nombre": "Horno Eléctrico Empotrable Ariston 71L",
+        "price": "$390.000",
+        "img": "../../img/Horno Eléctrico Empotrable Ariston 71L.png"
+    },
+    {
+        "categoria": "hornos",
+        "id": 30,
+        "nombre": "Horno Eléctrico con tecnología Dual Cook 75L Samsung",
+        "price": "$810.000",
+        "img": "../../img/Horno Eléctrico con tecnología Dual Cook 75L Samsung.png"
+    },
+    {
+        "categoria": "hornos",
+        "id": 31,
+        "nombre": "Horno Whirlpool Empotrable Eléctrico Inox",
+        "price": "$270.000",
+        "img": "../../img/Horno Whirlpool Empotrable Eléctrico Inox.png"
+    },
+    {
+        "categoria": "hornos",
+        "id": 32,
+        "nombre": "Horno electrico con vapor 73L Samsung",
+        "price": "$770.000",
+        "img": "../../img/horno electrico con vapor 73l Samsung.png"
+    }
+]

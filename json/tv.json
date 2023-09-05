@@ -1,0 +1,108 @@
+[
+    {
+        "categoria": "tv",
+        "id": 1,
+        "nombre": "LG OLED evo 65' 4K SMART TV con ThinQ AI",
+        "price": "$1.264.000",
+        "img": "../../img/tv lg oled evo.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 14,
+        "nombre": "Samsung 50' Neo QLED 4K TV Gaming",
+        "price": "$680.000",
+        "img": "../../img/Samsung 50' Neo QLED 4K TV Gaming.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 15,
+        "nombre": "LG HD 32' Smart TV con ThinQ AI (Inteligencia Artificial)",
+        "price": "$130.000",
+        "img": "../../img/LG HD 32' Smart TV con ThinQ AI (Inteligencia Artificial).png"
+    },
+    {
+        "categoria": "tv",
+        "id": 16,
+        "nombre": "Samsung 55' The Frame Art Mode 4K Smart TV",
+        "price": "$700.000",
+        "img": "../../img/Samsung 55' The Frame Art Mode 4K Smart TV.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 17,
+        "nombre": "TV LG NanoCell 55' 4K UHD Smart tv webOS",
+        "price": "$462.000",
+        "img": "../../img/TV LG NanoCell 55' 4K UHD Smart tv webOS.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 18,
+        "nombre": "Samsung 55' UHD 4K Smart TV",
+        "price": "$300.000",
+        "img": "../../img/Samsung 55' UHD 4K Smart TV.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 19,
+        "nombre": "TV LG OLED AI ThinQ 4K 65'",
+        "price": "$840.000",
+        "img": "../../img/TV LG OLED AI ThinQ 4K 65'.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 20,
+        "nombre": "Samsung 70' UHD 4K Smart TV",
+        "price": "$575.000",
+        "img": "../../img/Samsung 70' UHD 4K Smart TV.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 21,
+        "nombre": "TV LG OLED C1 4K ThinQ AI 77'",
+        "price": "$2.220.000",
+        "img": "../../img/TV LG OLED C1 4K ThinQ AI 77''.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 22,
+        "nombre": "Samsung 75' UHD 4K Smart TV",
+        "price": "$800.000",
+        "img": "../../img/Samsung 75' UHD 4K Smart TV.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 23,
+        "nombre": "TV LG QNED 4K ThinQ AI 86'",
+        "price": "$2.000.000",
+        "img": "../../img/TV LG QNED 4K ThinQ AI 86'.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 24,
+        "nombre": "TV Samsung 55' Neo QLED 4K",
+        "price": "$950.000",
+        "img": "../../img/TV Samsung 55' Neo QLED 4K.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 25,
+        "nombre": "TV LG UHD 4K ThinQ AI 75'",
+        "price": "$670.000",
+        "img": "../../img/TV LG UHD 4K ThinQ AI 75''.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 26,
+        "nombre": "Tv Samsung 55' QLED 4K",
+        "price": "$450.000",
+        "img": "../../img/Tv Samsung 55' QLED 4K.png"
+    },
+    {
+        "categoria": "tv",
+        "id": 27,
+        "nombre": "TV LG UHD LED ThinQ 43'",
+        "price": "$225.000",
+        "img": "../../img/TV LG UHD LED ThinQ 43'.png"
+    }
+    
+]
