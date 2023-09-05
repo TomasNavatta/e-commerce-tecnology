@@ -1,15 +1,15 @@
-const contenidoTelevisores = document.querySelector('.container');
+const contenidoNotebooks = document.querySelector('.container');
 
 
-let productosTelevisores = []; // Define y asigna los productos de televisores
+let productosNotebooks = []; // Define y asigna los productos de televisores
 
 const getProducts = async () => {
-    const response = await fetch("../../json/tv.json");
+    const response = await fetch("../../json/notebooks.json");
     const data = await response.json();
     data.forEach((product) => {
         // Agrega los productos a las categorías correspondientes
-          if (product.categoria === 'tv') {
-            productosTelevisores.push(product);
+          if (product.categoria === 'notebooks') {
+            productosNotebooks.push(product);
         }
 
         const content = document.createElement('article');
@@ -27,11 +27,11 @@ const getProducts = async () => {
            
            
         `;
-        contenidoTelevisores.append(content);
+        contenidoNotebooks.append(content);
     });
     
     // Llama a mostrarProductosSegunFiltro después de obtener los productos
-    mostrarProductosSegunFiltro('', 'tv'); 
+    mostrarProductosSegunFiltro('', 'notebooks'); 
 };
 
 function mostrarProductosSegunFiltro(filtro, categoria) {
@@ -41,8 +41,8 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     let productos;
 
    
-     if (categoria === 'tv') {
-        productos = productosTelevisores;
+     if (categoria === 'notebooks') {
+        productos = productosNotebooks;
     }
 
     productos.forEach(product => {
@@ -70,17 +70,17 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     });
 }
 
-const filtroProductosTelevisoresInput = document.querySelector('#campo-busqueda-tv');
-const botonBuscarTelevisores = document.querySelector('#btn-campo-busqueda-tv');
-botonBuscarTelevisores.addEventListener('click', () => {
-    const filtro = filtroProductosTelevisoresInput.value;
-    mostrarProductosSegunFiltro(filtro, 'tv');
+const filtroProductosNotebooksInput = document.querySelector('#campo-busqueda-notebooks');
+const botonBuscarNotebooks = document.querySelector('#btn-campo-busqueda-notebooks');
+botonBuscarNotebooks.addEventListener('click', () => {
+    const filtro = filtroProductosNotebooksInput.value;
+    mostrarProductosSegunFiltro(filtro, 'notebooks');
 });
 
-filtroProductosTelevisoresInput.addEventListener('keypress', e => {
+filtroProductosNotebooksInput.addEventListener('keypress', e => {
     if (e.key === 'Enter') {
-        const filtro = filtroProductosTelevisoresInput.value;
-        mostrarProductosSegunFiltro(filtro, 'tv');
+        const filtro = filtroProductosNotebooksInput.value;
+        mostrarProductosSegunFiltro(filtro, 'notebooks');
     }
 });
 

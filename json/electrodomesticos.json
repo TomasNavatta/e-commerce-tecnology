@@ -82,26 +82,5 @@
         "nombre": "Batidora de Bowl Elevable KitchenAid 6,6L Empire Red",
         "price": "$383.799",
         "img": "../../img/Batidora de Bowl Elevable KitchenAid 6,6L Empire Red.png"
-    },
-    {
-        "categoria": "electrodomesticos",
-        "id": 61,
-        "nombre": "Juguera de prensado en frío Kuvings Gunmetal",
-        "price": "$375.000",
-        "img": "../../img/Juguera de prensado en frío Kuvings Gunmetal.png"
-    },
-    {
-        "categoria": "electrodomesticos",
-        "id": 62,
-        "nombre": "Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades",
-        "price": "$311.529",
-        "img": "../../img/Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades.png"
-    },
-    {
-        "categoria": "electrodomesticos",
-        "id": 63,
-        "nombre": "Cafetera Nespresso Gran Lattissima Black",
-        "price": "$309.390",
-        "img": "../../img/Cafetera Nespresso Gran Lattissima Black.png"
     }
 ]

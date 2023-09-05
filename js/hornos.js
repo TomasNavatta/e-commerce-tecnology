@@ -1,15 +1,15 @@
-const contenidoTelevisores = document.querySelector('.container');
+const contenidoHornos = document.querySelector('.container');
 
 
-let productosTelevisores = []; // Define y asigna los productos de televisores
+let productosHornos = []; // Define y asigna los productos de televisores
 
 const getProducts = async () => {
-    const response = await fetch("../../json/tv.json");
+    const response = await fetch("../../json/hornos.json");
     const data = await response.json();
     data.forEach((product) => {
         // Agrega los productos a las categorías correspondientes
-          if (product.categoria === 'tv') {
-            productosTelevisores.push(product);
+          if (product.categoria === 'hornos') {
+            productosHornos.push(product);
         }
 
         const content = document.createElement('article');
@@ -27,11 +27,11 @@ const getProducts = async () => {
            
            
         `;
-        contenidoTelevisores.append(content);
+        contenidoHornos.append(content);
     });
     
     // Llama a mostrarProductosSegunFiltro después de obtener los productos
-    mostrarProductosSegunFiltro('', 'tv'); 
+    mostrarProductosSegunFiltro('', 'hornos'); 
 };
 
 function mostrarProductosSegunFiltro(filtro, categoria) {
@@ -41,8 +41,8 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     let productos;
 
    
-     if (categoria === 'tv') {
-        productos = productosTelevisores;
+     if (categoria === 'hornos') {
+        productos = productosHornos;
     }
 
     productos.forEach(product => {
@@ -70,17 +70,17 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     });
 }
 
-const filtroProductosTelevisoresInput = document.querySelector('#campo-busqueda-tv');
-const botonBuscarTelevisores = document.querySelector('#btn-campo-busqueda-tv');
-botonBuscarTelevisores.addEventListener('click', () => {
-    const filtro = filtroProductosTelevisoresInput.value;
-    mostrarProductosSegunFiltro(filtro, 'tv');
+const filtroProductosHornosInput = document.querySelector('#campo-busqueda-hornos');
+const botonBuscarHornos = document.querySelector('#btn-campo-busqueda-hornos');
+botonBuscarHornos.addEventListener('click', () => {
+    const filtro = filtroProductosHornosInput.value;
+    mostrarProductosSegunFiltro(filtro, 'hornos');
 });
 
-filtroProductosTelevisoresInput.addEventListener('keypress', e => {
+filtroProductosHornosInput.addEventListener('keypress', e => {
     if (e.key === 'Enter') {
-        const filtro = filtroProductosTelevisoresInput.value;
-        mostrarProductosSegunFiltro(filtro, 'tv');
+        const filtro = filtroProductosHornosInput.value;
+        mostrarProductosSegunFiltro(filtro, 'hornos');
     }
 });
 

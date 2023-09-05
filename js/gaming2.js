@@ -1,15 +1,15 @@
-const contenidoTelevisores = document.querySelector('.container');
+const contenidoGaming2 = document.querySelector('.container');
 
 
-let productosTelevisores = []; // Define y asigna los productos de televisores
+let productosGaming2 = []; // Define y asigna los productos de televisores
 
 const getProducts = async () => {
-    const response = await fetch("../../json/tv.json");
+    const response = await fetch("../../json/gaming2.json");
     const data = await response.json();
     data.forEach((product) => {
         // Agrega los productos a las categorías correspondientes
-          if (product.categoria === 'tv') {
-            productosTelevisores.push(product);
+          if (product.categoria === 'gaming') {
+            productosGaming2.push(product);
         }
 
         const content = document.createElement('article');
@@ -27,11 +27,11 @@ const getProducts = async () => {
            
            
         `;
-        contenidoTelevisores.append(content);
+        contenidoGaming2.append(content);
     });
     
     // Llama a mostrarProductosSegunFiltro después de obtener los productos
-    mostrarProductosSegunFiltro('', 'tv'); 
+    mostrarProductosSegunFiltro('', 'gaming'); 
 };
 
 function mostrarProductosSegunFiltro(filtro, categoria) {
@@ -41,8 +41,8 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     let productos;
 
    
-     if (categoria === 'tv') {
-        productos = productosTelevisores;
+     if (categoria === 'gaming') {
+        productos = productosGaming2;
     }
 
     productos.forEach(product => {
@@ -70,17 +70,17 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     });
 }
 
-const filtroProductosTelevisoresInput = document.querySelector('#campo-busqueda-tv');
-const botonBuscarTelevisores = document.querySelector('#btn-campo-busqueda-tv');
-botonBuscarTelevisores.addEventListener('click', () => {
-    const filtro = filtroProductosTelevisoresInput.value;
-    mostrarProductosSegunFiltro(filtro, 'tv');
+const filtroProductosGamingInput = document.querySelector('#campo-busqueda-gaming');
+const botonBuscarGaming = document.querySelector('#btn-campo-busqueda-gaming');
+botonBuscarGaming.addEventListener('click', () => {
+    const filtro = filtroProductosGamingInput.value;
+    mostrarProductosSegunFiltro(filtro, 'gaming');
 });
 
-filtroProductosTelevisoresInput.addEventListener('keypress', e => {
+filtroProductosGamingInput.addEventListener('keypress', e => {
     if (e.key === 'Enter') {
-        const filtro = filtroProductosTelevisoresInput.value;
-        mostrarProductosSegunFiltro(filtro, 'tv');
+        const filtro = filtroProductosGamingInput.value;
+        mostrarProductosSegunFiltro(filtro, 'gaming');
     }
 });
 

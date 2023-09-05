@@ -1,15 +1,15 @@
-const contenidoTelevisores = document.querySelector('.container');
+const contenidoElectrodomesticos = document.querySelector('.container');
 
 
-let productosTelevisores = []; // Define y asigna los productos de televisores
+let productosElectrodomesticos = []; // Define y asigna los productos de televisores
 
 const getProducts = async () => {
-    const response = await fetch("../../json/tv.json");
+    const response = await fetch("../../json/electrodomesticos.json");
     const data = await response.json();
     data.forEach((product) => {
         // Agrega los productos a las categorías correspondientes
-          if (product.categoria === 'tv') {
-            productosTelevisores.push(product);
+          if (product.categoria === 'electrodomesticos') {
+            productosElectrodomesticos.push(product);
         }
 
         const content = document.createElement('article');
@@ -27,11 +27,11 @@ const getProducts = async () => {
            
            
         `;
-        contenidoTelevisores.append(content);
+        contenidoElectrodomesticos.append(content);
     });
     
     // Llama a mostrarProductosSegunFiltro después de obtener los productos
-    mostrarProductosSegunFiltro('', 'tv'); 
+    mostrarProductosSegunFiltro('', 'electrodomesticos'); 
 };
 
 function mostrarProductosSegunFiltro(filtro, categoria) {
@@ -41,8 +41,8 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     let productos;
 
    
-     if (categoria === 'tv') {
-        productos = productosTelevisores;
+     if (categoria === 'electrodomesticos') {
+        productos = productosElectrodomesticos;
     }
 
     productos.forEach(product => {
@@ -70,17 +70,17 @@ function mostrarProductosSegunFiltro(filtro, categoria) {
     });
 }
 
-const filtroProductosTelevisoresInput = document.querySelector('#campo-busqueda-tv');
-const botonBuscarTelevisores = document.querySelector('#btn-campo-busqueda-tv');
-botonBuscarTelevisores.addEventListener('click', () => {
-    const filtro = filtroProductosTelevisoresInput.value;
-    mostrarProductosSegunFiltro(filtro, 'tv');
+const filtroProductosElectrodomesticosInput = document.querySelector('#campo-busqueda-electrodomesticos');
+const botonBuscarElectrodomesticos = document.querySelector('#btn-campo-busqueda-electrodomesticos');
+botonBuscarElectrodomesticos.addEventListener('click', () => {
+    const filtro = filtroProductosElectrodomesticosInput.value;
+    mostrarProductosSegunFiltro(filtro, 'electrodomesticos');
 });
 
-filtroProductosTelevisoresInput.addEventListener('keypress', e => {
+filtroProductosElectrodomesticosInput.addEventListener('keypress', e => {
     if (e.key === 'Enter') {
-        const filtro = filtroProductosTelevisoresInput.value;
-        mostrarProductosSegunFiltro(filtro, 'tv');
+        const filtro = filtroProductosElectrodomesticosInput.value;
+        mostrarProductosSegunFiltro(filtro, 'electrodomesticos');
     }
 });
 

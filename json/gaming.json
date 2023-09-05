@@ -82,33 +82,5 @@
         "nombre": "Teclado Mecanico Redragon K550 Yama Black RGB",
         "price": "$50.130",
         "img": "../../img/Teclado Mecanico Redragon K550 Yama Black RGB.png"
-    },
-    {
-        "categoria": "gaming",
-        "id": 45,
-        "nombre": "Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync",
-        "price": "$1.100.000",
-        "img": "../../img/Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync.png"
-    },
-    {
-        "categoria": "gaming",
-        "id": 46,
-        "nombre": "Mouse Pad Redragon Kunlun Large P006 XL 880x420mm",
-        "price": "$16.200",
-        "img": "../../img/Mouse Pad Redragon Kunlun Large P006 XL 880x420mm.png"
-    },
-    {
-        "categoria": "gaming",
-        "id": 47,
-        "nombre": "Mouse Logitech G703 Lightspeed Wireless",
-        "price": "$73.000",
-        "img": "../../img/Mouse Logitech G703 Lightspeed Wireless.png"
-    },
-    {
-        "categoria": "gaming",
-        "id": 48,
-        "nombre": "Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS",
-        "price": "$625.000",
-        "img": "../../img/Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS.png"
     }
 ]
