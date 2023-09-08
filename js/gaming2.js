@@ -1,7 +1,7 @@
 const contenidoGaming2 = document.querySelector('.container');
 
 
-let productosGaming2 = []; // Define y asigna los productos de televisores
+let productosGaming2 = []; // Define y asigna los productos de gaming
 
 const getProducts = async () => {
     const response = await fetch("../../json/gaming2.json");
@@ -77,11 +77,13 @@ botonBuscarGaming.addEventListener('click', () => {
     mostrarProductosSegunFiltro(filtro, 'gaming');
 });
 
-filtroProductosGamingInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosGamingInput.value;
-        mostrarProductosSegunFiltro(filtro, 'gaming');
-    }
+const formularioBusquedaGaming = document.querySelector('#formulario-busqueda-gaming');
+
+formularioBusquedaGaming.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosGamingInput.value;
+    mostrarProductosSegunFiltro(filtro, 'gaming');
 });
 
 // Llama a la función getProducts para cargar los productos al principio

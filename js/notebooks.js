@@ -1,7 +1,7 @@
 const contenidoNotebooks = document.querySelector('.container');
 
 
-let productosNotebooks = []; // Define y asigna los productos de televisores
+let productosNotebooks = []; // Define y asigna los productos de notebooks
 
 const getProducts = async () => {
     const response = await fetch("../../json/notebooks.json");
@@ -77,12 +77,13 @@ botonBuscarNotebooks.addEventListener('click', () => {
     mostrarProductosSegunFiltro(filtro, 'notebooks');
 });
 
-filtroProductosNotebooksInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosNotebooksInput.value;
-        mostrarProductosSegunFiltro(filtro, 'notebooks');
-    }
-});
+const formularioBusquedaNotebooks = document.querySelector('#formulario-busqueda-notebooks');
 
+formularioBusquedaNotebooks.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosNotebooksInput.value;
+    mostrarProductosSegunFiltro(filtro, 'notebooks');
+});
 // Llama a la función getProducts para cargar los productos al principio
 getProducts();

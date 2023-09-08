@@ -1,7 +1,7 @@
 const contenidoElectrodomesticos = document.querySelector('.container');
 
 
-let productosElectrodomesticos = []; // Define y asigna los productos de televisores
+let productosElectrodomesticos = []; // Define y asigna los productos de electrodomesticos
 
 const getProducts = async () => {
     const response = await fetch("../../json/electrodomesticos.json");
@@ -77,11 +77,13 @@ botonBuscarElectrodomesticos.addEventListener('click', () => {
     mostrarProductosSegunFiltro(filtro, 'electrodomesticos');
 });
 
-filtroProductosElectrodomesticosInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosElectrodomesticosInput.value;
-        mostrarProductosSegunFiltro(filtro, 'electrodomesticos');
-    }
+const formularioBusquedaElectrodomesticos = document.querySelector('#formulario-busqueda-electrodomesticos');
+
+formularioBusquedaElectrodomesticos.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosElectrodomesticosInput.value;
+    mostrarProductosSegunFiltro(filtro, 'electrodomesticos');
 });
 
 // Llama a la función getProducts para cargar los productos al principio

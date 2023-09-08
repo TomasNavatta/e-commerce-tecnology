@@ -98,59 +98,6 @@ function agregarProducto(e){
     }
 }
 
-// // Selección del campo de búsqueda y botón de búsqueda
-// const campoBusqueda = document.querySelector('#campo-busqueda');
-// const btnBusqueda = document.querySelector('#btn-campo-busqueda');
-// const formularioBusqueda = document.querySelector('#formulario-busqueda');
-
-// // Selección de los elementos que se filtrarán
-// const productos = document.querySelectorAll('.card');
-
-// // Agregar un evento al botón de búsqueda para filtrar productos
-// btnBusqueda.addEventListener('click', filtrarProductos);
-
-// // Agregar un evento al formulario para evitar el envío por defecto
-// formularioBusqueda.addEventListener('submit', function (e) {
-//     e.preventDefault();
-// });
-
-
-// // Agregar un evento al botón de búsqueda para filtrar productos
-// btnBusqueda.addEventListener('click', filtrarProductos);
-
-// // Agregar un evento al formulario para evitar el envío por defecto
-// formularioBusqueda.addEventListener('submit', function (e) {
-//     e.preventDefault();
-// });
-
-
-
-
-
-
-// function filtrarProductos() {
-//     const textoBusqueda = campoBusqueda.value.toLowerCase();
-
-//     productos.forEach(producto => {
-//         const nombreProducto = producto.querySelector('.contenido p').textContent.toLowerCase();
-        
-//         // Comprobar si el nombre del producto incluye el texto de búsqueda
-//         if (nombreProducto.includes(textoBusqueda)) {
-//             producto.style.display = 'block'; // Mostrar el producto si coincide
-//         } else {
-//             producto.style.display = 'none';  // Ocultar el producto si no coincide
-//         }
-//          // Si el campo de búsqueda está vacío, mostrar todos los productos
-//     if (campoBusqueda.value === '') {
-//         mostrarTodosLosProductos();
-//     }
-//     });
-
-
-// }
-
-
-
 //seleccionar los datos del producto que qeuremos que se muestre en el carrito
 function leerDatosProducto(i){
     const infoProducto = {

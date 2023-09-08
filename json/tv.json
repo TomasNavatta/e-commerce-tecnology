@@ -1,7 +1,7 @@
 [
     {
         "categoria": "tv",
-        "id": 1,
+        "id": 13,
         "nombre": "LG OLED evo 65' 4K SMART TV con ThinQ AI",
         "price": "$1.264.000",
         "img": "../../img/tv lg oled evo.png"
@@ -11,14 +11,14 @@
         "id": 14,
         "nombre": "Samsung 50' Neo QLED 4K TV Gaming",
         "price": "$680.000",
-        "img": "../../img/Samsung 50' Neo QLED 4K TV Gaming.png"
+        "img": "../../img/tvvvvvvvvv.avif"
     },
     {
         "categoria": "tv",
         "id": 15,
         "nombre": "LG HD 32' Smart TV con ThinQ AI (Inteligencia Artificial)",
         "price": "$130.000",
-        "img": "../../img/LG HD 32' Smart TV con ThinQ AI (Inteligencia Artificial).png"
+        "img": "../../LG HD 32' Smart TV con ThinQ AI (Inteligencia Artificial).png"
     },
     {
         "categoria": "tv",

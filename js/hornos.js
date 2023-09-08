@@ -1,7 +1,7 @@
 const contenidoHornos = document.querySelector('.container');
 
 
-let productosHornos = []; // Define y asigna los productos de televisores
+let productosHornos = []; // Define y asigna los productos de hornos
 
 const getProducts = async () => {
     const response = await fetch("../../json/hornos.json");
@@ -77,11 +77,13 @@ botonBuscarHornos.addEventListener('click', () => {
     mostrarProductosSegunFiltro(filtro, 'hornos');
 });
 
-filtroProductosHornosInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosHornosInput.value;
-        mostrarProductosSegunFiltro(filtro, 'hornos');
-    }
+const formularioBusquedaHornos = document.querySelector('#formulario-busqueda-hornos');
+
+formularioBusquedaHornos.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosHornosInput.value;
+    mostrarProductosSegunFiltro(filtro, 'hornos');
 });
 
 // Llama a la función getProducts para cargar los productos al principio

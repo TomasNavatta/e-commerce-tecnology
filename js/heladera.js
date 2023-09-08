@@ -1,7 +1,7 @@
 const contenidoHeladeras = document.querySelector('.container');
 
 
-let productosHeladeras = []; // Define y asigna los productos de televisores
+let productosHeladeras = []; // Define y asigna los productos de heladeras
 
 const getProducts = async () => {
     const response = await fetch("../../json/heladeras.json");
@@ -76,12 +76,13 @@ botonBuscarHeladeras.addEventListener('click', () => {
     const filtro = filtroProductosHeladerasInput.value;
     mostrarProductosSegunFiltro(filtro, 'heladeras');
 });
+const formularioBusquedaHeladeras = document.querySelector('#formulario-busqueda-heladeras');
 
-filtroProductosHeladerasInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosHeladerasInput.value;
-        mostrarProductosSegunFiltro(filtro, 'heladeras');
-    }
+formularioBusquedaHeladeras.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosHeladerasInput.value;
+    mostrarProductosSegunFiltro(filtro, 'heladeras');
 });
 
 // Llama a la función getProducts para cargar los productos al principio

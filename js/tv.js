@@ -1,7 +1,7 @@
 const contenidoTelevisores = document.querySelector('.container');
 
 
-let productosTelevisores = []; // Define y asigna los productos de televisores
+let productosTelevisores = []; // Define y asigna los productos de tv
 
 const getProducts = async () => {
     const response = await fetch("../../json/tv.json");
@@ -77,11 +77,13 @@ botonBuscarTelevisores.addEventListener('click', () => {
     mostrarProductosSegunFiltro(filtro, 'tv');
 });
 
-filtroProductosTelevisoresInput.addEventListener('keypress', e => {
-    if (e.key === 'Enter') {
-        const filtro = filtroProductosTelevisoresInput.value;
-        mostrarProductosSegunFiltro(filtro, 'tv');
-    }
+const formularioBusquedaTv = document.querySelector('#formulario-busqueda-tv');
+
+formularioBusquedaTv.addEventListener('submit', (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se recargue la página
+    
+    const filtro = filtroProductosTvInput.value;
+    mostrarProductosSegunFiltro(filtro, 'tv');
 });
 
 // Llama a la función getProducts para cargar los productos al principio
