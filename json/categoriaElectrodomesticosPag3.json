@@ -1,0 +1,58 @@
+[
+    {
+        "categoria": "allElectrodomestics",
+        "id": 8,
+        "nombre": "Heladera con freezer Cíclica 364 L Blanca Drean",
+        "price": "$312.000",
+        "img": "../img/Heladera con freezer Cíclica 364 L Blanca Drean.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 62,
+        "nombre": "Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades",
+        "price": "$311.529",
+        "img": "../img/Batidora KitchenAid Artisan Onyx Negro 4,8 L 10 Velocidades.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 9,
+        "nombre": "Heladera Samsung Freezer Superior Twin Cooling Plus™, 321 L",
+        "price": "$374.000",
+        "img": "../img/Heladera Freezer Superior Twin Cooling Plus™, 321 L.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 58,
+        "nombre": "Licuadora Profesional Turboblender Digital Con Cover 2200W 4HP 1,5 L Blanca",
+        "price": "$399.999",
+        "img": "../img/Licuadora Profesional Turboblender Digital Con Cover 2200W 4HP 1,5 L  Blanca.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 59,
+        "nombre": "Cafetera Espresso Molinillo Inc Barista",
+        "price": "$499.999",
+        "img": "../img/Cafetera Espresso Molinillo Inc Barista.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 5,
+        "nombre": "Heladera con freezer Cíclica 314 L Black Steel Drean",
+        "price": "$328.000",
+        "img": "../img/Heladera con freezer Cíclica 314 L Black Steel Drean.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 63,
+        "nombre": "Cafetera Nespresso Gran Lattissima Black",
+        "price": "$309.390",
+        "img": "../img/Cafetera Nespresso Gran Lattissima Black.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 60,
+        "nombre": "Batidora de Bowl Elevable KitchenAid 6,6L Empire Red",
+        "price": "$383.799",
+        "img": "../img/Batidora de Bowl Elevable KitchenAid 6,6L Empire Red.png"
+    }
+]

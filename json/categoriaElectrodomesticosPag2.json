@@ -1,0 +1,87 @@
+[
+    {
+        "categoria": "allElectrodomestics",
+        "id": 31,
+        "nombre": "Horno Whirlpool Empotrable Eléctrico Inox",
+        "price": "$270.000",
+        "img": "../img/Horno Whirlpool Empotrable Eléctrico Inox.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 4,
+        "nombre": "Heladera Flex™ de 4 puertas Family Hub™ Samsung",
+        "price": "$1.000.000",
+        "img": "../img/heladera samsu.png"
+    },
+    
+    {
+        "categoria": "allElectrodomestics",
+        "id": 55,
+        "nombre": "Robot Cocina Companion Moulinex Vaporera Olla Presion Horno",
+        "price": "$781.039",
+        "img": "../img/Robot Cocina Companion Moulinex Vaporera Olla Presion Horno.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 56,
+        "nombre": "Cafetera expresso Philips",
+        "price": "$559.999",
+        "img": "../img/Cafetera expresso Philips.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 10,
+        "nombre": "Heladera LG Side by Side InstaView, Craft Ice, ThinQ",
+        "price": "$2.160.000",
+        "img": "../img/Heladera LG Side by Side InstaView, Craft Ice, ThinQ.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 11,
+        "nombre": "Heladera Samsung Side by Side Family Hub de 685L",
+        "price": "$3.500.000",
+        "img": "../img/Heladera Side by Side Family Hub de 685L.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 12,
+        "nombre": "Heladera French Door SpaceMax 629L Samsung",
+        "price": "$1.725.000",
+        "img": "../img/Heladera French Door SpaceMax 629L.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 32,
+        "nombre": "Horno electrico con vapor 73L Samsung",
+        "price": "$770.000",
+        "img": "../img/horno electrico con vapor 73l Samsung.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 57,
+        "nombre": "Extractor de Jugos Peabody  By Hurom - Slow 100w Negro",
+        "price": "$412.499",
+        "img": "../img/Extractor de Jugos Peabody  By Hurom - Slow 100w Negro.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 6,
+        "nombre": "Heladera LG InstaView Door-in-Door™ - Capacidad 601lt",
+        "price": "$2.160.000",
+        "img": "../img/Heladera LG InstaView Door-in-Door™ - Capacidad 601lt.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 61,
+        "nombre": "Juguera de prensado en frío Kuvings Gunmetal",
+        "price": "$375.000",
+        "img": "../img/Juguera de prensado en frío Kuvings Gunmetal.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 7,
+        "nombre": "Heladera LG French Door con Beverage Center 713L",
+        "price": "$4.130.000",
+        "img": "../img/Heladera French Door con Beverage Center 713L.png"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "categoria": "allElectrodomestics",
+        "id": 49,
+        "nombre": "Licuadora de Pie Peabody 600W 1,5 Lts 5 Velocidades",
+        "price": "$18.999",
+        "img": "../img/Licuadora de Pie Peabody 600W 1,5 Lts 5 Velocidades.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 1,
+        "nombre": "Heladera LG Side by Side Smart Inverter Compressor Capacidad 591 Lts",
+        "price": "$1.640.000",
+        "img": "../img/Heladera Side by Side Smart Inverter Compressor Capacidad 591 Lts.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 28,
+        "nombre": "Horno electrico con Dual Fan 70L Samsung",
+        "price": "$720.000",
+        "img": "../img/horno electrico con dual fan 70l samsung.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 2,
+        "nombre": "Heladera Drean Freezer Inferior 545 litros - Acero Inoxidable",
+        "price": "$1.080.000",
+        "img": "../img/Heladera Freezer Inferior 545 litros - Acero Inoxidable.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 50,
+        "nombre": "Pava Eléctrica Atma 1,7Lts Negra",
+        "price": "$17.999",
+        "img": "../img/Pava Eléctrica Atma 1,7Lts  Negra.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 29,
+        "nombre": "Horno Eléctrico Empotrable Ariston 71L",
+        "price": "$390.000",
+        "img": "../img/Horno Eléctrico Empotrable Ariston 71L.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 51,
+        "nombre": "Licuadora de Pie Liliana WHITELIC AL100",
+        "price": "$16.499",
+        "img": "../img/Licuadora de Pie Liliana WHITELIC AL100.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 52,
+        "nombre": "Aspiradora con Bolsa ATMA 1500W",
+        "price": "$49.999",
+        "img": "../img/Aspiradora con Bolsa ATMA  1500W.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 30,
+        "nombre": "Horno Eléctrico con tecnología Dual Cook 75L Samsung",
+        "price": "$810.000",
+        "img": "../img/Horno Eléctrico con tecnología Dual Cook 75L Samsung.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 53,
+        "nombre": "Hornito Eléctrico Peabody 35Lts",
+        "price": "$42.499",
+        "img": "../img/Hornito Eléctrico Peabody  35Lts.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 54,
+        "nombre": "iRobot Roomba i7+ Aspiradora Negra",
+        "price": "$941.999",
+        "img": "../img/iRobot Roomba i7+ Aspiradora Negra.png"
+    },
+    {
+        "categoria": "allElectrodomestics",
+        "id": 3,
+        "nombre": "LG Heladera Door-in-Door® - Capacidad 626lt",
+        "price": "$1.725.000",
+        "img": "../img/LG Heladera Door-in-Door® - Capacidad 626lt.png"
+    }
+  
+]
