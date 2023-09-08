@@ -1,0 +1,93 @@
+[
+    {
+        "categoria": "tecnologia",
+        "id": 68,
+        "nombre": "Notebook ASUS Zenbook Pro Duo 15 OLED  Core i9 11900H 32GB 1TB RTX3080 Touch Win11Home",
+        "price": "$3.986.199",
+        "img": "../img/Notebook ASUS Zenbook Pro Duo 15 OLED  Core i9 11900H 32GB 1TB RTX3080 Touch Win11Home.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 47,
+        "nombre": "Mouse Logitech G703 Lightspeed Wireless",
+        "price": "$73.000",
+        "img": "../img/Mouse Logitech G703 Lightspeed Wireless.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 39,
+        "nombre": "Teclado Mecanico HyperX Alloy Elite 2 RGB Switch Red",
+        "price": "$111.800",
+        "img": "../img/Teclado Mecanico HyperX Alloy Elite 2 RGB Switch Red.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 70,
+        "nombre": "Notebook Fhd Dell Latitude 9430 Core I5 12va 16gb Ddr5 256gb",
+        "price": "$3.899.999",
+        "img": "../img/Notebook Fhd Dell Latitude 9430 Core I5 12va 16gb Ddr5 256gb.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 40,
+        "nombre": "Teclado Mecanico Redragon Fizz Pro K616-RGB 60% White-Pink",
+        "price": "$35.750",
+        "img": "../img/teclado redragon.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 48,
+        "nombre": "Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS",
+        "price": "$625.000",
+        "img": "../img/Monitor Gamer ViewSonic 24.5'' XG251G 360Hz IPS.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 72,
+        "nombre": "Notebook Gigabyte 16 Intel Core i7-12700H 16GB 1TB RTX3070Ti Win11Pro Gris",
+        "price": "$3.695.399",
+        "img": "../img/Notebook Gigabyte 16 Intel Core i7-12700H 16GB 1TB RTX3070Ti Win11Pro Gris.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 41,
+        "nombre": "Mouse Logitech G PRO X Wireless Superlight White 25K",
+        "price": "$96.500",
+        "img": "../img/Mouse Logitech G PRO X Wireless Superlight White 25K.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 69,
+        "nombre": "MacBook Pro 16'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Silver",
+        "price": "$3.729.900",
+        "img": "../img/MacBook Pro 16'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD – Silver.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 42,
+        "nombre": "Mouse Pad Logitech G440 Gaming 340mm x 280mm",
+        "price": "$10.860",
+        "img": "../img/Mouse Pad Logitech G440 Gaming 340mm x 280mm.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 43,
+        "nombre": "Mouse Logitech G502X Plus Black Lightforce Hero 25K Wireless RGB",
+        "price": "$118.000",
+        "img": "../img/Mouse Logitech G502X Plus Black Lightforce Hero 25K Wireless RGB.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 44,
+        "nombre": "Teclado Mecanico Redragon K550 Yama Black RGB",
+        "price": "$50.130",
+        "img": "../img/Teclado Mecanico Redragon K550 Yama Black RGB.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 71,
+        "nombre": "Notebook Gamer Lenovo Legion 7i Intel Core i7 12800HX (16N) 32GB 1TB SSD RTX 3070Ti",
+        "price": "$2.178.999",
+        "img": "../img/Notebook Gamer Lenovo Legion 7i Intel Core i7 12800HX (16N) 32GB 1TB SSD RTX 3070Ti.png"
+    }
+]

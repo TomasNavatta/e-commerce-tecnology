@@ -1,0 +1,86 @@
+[
+    {
+        "categoria": "tecnologia",
+        "id": 33,
+        "nombre": "Mouse HyperX Pulsefire Raid 11 Botones programables",
+        "price": "$35.900",
+        "img": "../img/Mouse HyperX Pulsefire Raid 11 Botones programables.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 45,
+        "nombre": "Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync",
+        "price": "$1.100.000",
+        "img": "../img/Monitor Gamer Samsung 49'' G9 Odyssey 240Hz Curvo QLed Dual QHD 2K GSync FreeSync.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 34,
+        "nombre": "Teclado Logitech G213 Prodigy RGB Gaming",
+        "price": "$40.000",
+        "img": "../img/Teclado Logitech G213 Prodigy RGB Gaming.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 64,
+        "nombre": "Notebook 2 En 1 Qhd+ Dell Latitude 9420 I7 11va 32gb 1tb Ssd",
+        "price": "$5.499.999",
+        "img": "../img/Notebook 2 En 1 Qhd+ Dell Latitude 9420 I7 11va 32gb 1tb Ssd.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 35,
+        "nombre": "Monitor Gamer ASUS 27' GAMING VG27VQ 165Hz FHD",
+        "price": "$276.000",
+        "img": "../img/Monitor Gamer ASUS 27' GAMING VG27VQ 165Hz FHD.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 36,
+        "nombre": "Monitor Gamer LG 32''  IPS 4K 144Hz 1ms GSync FreeSync",
+        "price": "$1.054.000",
+        "img": "../img/Monitor Gamer LG 32''  IPS 4K 144Hz 1ms GSync FreeSync.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 66,
+        "nombre": "Notebook Asus 18” Intel Core i9 24 Núcleos 32GB 1TB SSD ROG Strix Scar 18 Placa RTX 4090",
+        "price": "$2.999.999",
+        "img": "../img/Notebook Asus 18” Intel Core i9 24 Núcleos 32GB 1TB SSD ROG Strix Scar 18 Placa RTX 4090.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 46,
+        "nombre": "Mouse Pad Redragon Kunlun Large P006 XL 880x420mm",
+        "price": "$16.200",
+        "img": "../img/Mouse Pad Redragon Kunlun Large P006 XL 880x420mm.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 67,
+        "nombre": "MacBook Pro 14'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Space Grey",
+        "price": "$3.429.900",
+        "img": "../img/MacBook Pro 14'' Apple M1 Pro chip 10-core CPU 16-core GPU - 1TB SSD - Space Grey.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 37,
+        "nombre": "Mouse Pad Glorious XL Black G-HXL 410 x 460mm",
+        "price": "$8.250",
+        "img": "../img/Mouse Pad Glorious XL Black G-HXL 410 x 460mm.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 65,
+        "nombre": "Notebook Asus 15.6 Ryzen 7 6800h 16g 512gb Rtx3060 W11h",
+        "price": "$2.313.333",
+        "img": "../img/Notebook Asus 15.6 Ryzen 7 6800h 16g 512gb Rtx3060 W11h.png"
+    },
+    {
+        "categoria": "tecnologia",
+        "id": 38,
+        "nombre": "Mouse HyperX Pulsefire Surge RGB 16.000DPI",
+        "price": "$41.600",
+        "img": "../img/Mouse HyperX Pulsefire Surge RGB 16.000DPI.png"
+    }
+]
